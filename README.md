@@ -24,7 +24,7 @@ Add the following to your `composer.json` file :
 
 ```json
 "require": {
-    "silviolleite/laravelpwa": "~2.0.3",
+    "leganz/laravelpwa": "~2.0.3",
 },
 ```
 
@@ -38,6 +38,14 @@ composer require silviolleite/laravelpwa --prefer-dist
 
 ```bash
 $ php artisan vendor:publish --provider="LaravelPWA\Providers\LaravelPWAServiceProvider"
+```
+
+### Deployment
+
+Create the manifest.json file for deployment.
+
+```bash
+php artisan pwa:manifest-deploy
 ```
 
 ### Configuration
