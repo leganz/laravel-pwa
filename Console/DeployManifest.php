@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelPWA\Console\Commands;
+namespace LaravelPWA\Console;
 
 use File;
 
